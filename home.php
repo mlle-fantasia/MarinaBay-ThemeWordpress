@@ -23,7 +23,7 @@
                 </div>
             </div>
         <?php endif; ?>
-        
+
         <div class="row">
             <?php mb_pagination() ?>
         </div>
