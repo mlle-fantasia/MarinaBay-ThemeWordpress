@@ -1,0 +1,67 @@
+/*
+Theme Name: marinabay
+Author: Marina Front
+Author URI: http://marinafront.fr/
+Description: thème modèle pour intégrer les fonctionnalités de wordpress.
+Version: 1.0
+Text Domain: marinabay
+*/
+/*==========================================================*/
+/*===                   les couleurs                     ===*/
+/*==========================================================*/
+/*
+    #212121  => presque noir pour les textes
+    #266160  => vert canard dark
+    #4B9692  => vert canard
+    #7f9c9b  => gris-vert
+    #ccd4d3  => gris clair
+    #fff     => blanc
+*/
+
+/*==========================================================*/
+/*===                   classes globales                 ===*/
+/*==========================================================*/
+
+p{
+    color: #212121;
+}
+
+.mb-width-100{
+    width: 100%;
+}
+
+.mb-text-center{
+    text-align: center;
+}
+
+.margin-auto{
+    margin: auto;
+}
+
+.wp-block-image img{
+    height: auto;
+}
+
+/*==========================================================*/
+/*===                       pagination                   ===*/
+/*==========================================================*/
+
+.mb-pagination{
+    padding: 20px 20px;
+}
+.mb-pagination a{
+    color: #266160;
+    text-decoration: none;
+    border: solid 1px #266160;
+    border-radius: 2px 2px;
+    margin-right: 10px;
+    padding: 0 5px;
+}
+.mb-pagination .current{
+    color: #212121;
+    background-color: #4B9692;
+    border: solid 1px #266160;
+    border-radius: 2px 2px;
+    margin-right: 10px;
+    padding: 0 5px;
+}
